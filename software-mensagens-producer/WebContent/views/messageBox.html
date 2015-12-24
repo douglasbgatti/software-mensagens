@@ -1,0 +1,82 @@
+ <div class="box box-warning">
+    <div class="box-header with-border">
+        <h3 class="box-title">Message Box</h3>
+    </div><!-- /.box-header -->
+<div class="box-body"> 
+  <div class="row">
+            <div class="col-md-3">
+              <a href="#/composemessage" class="btn btn-primary btn-block margin-bottom">Compose</a>
+              <div class="box box-solid">
+                <div class="box-header with-border">
+                  <h3 class="box-title">Folders</h3>
+                  <div class="box-tools">
+                    <button class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i></button>
+                  </div>
+                </div>
+                <div class="box-body no-padding">
+                  <ul class="nav nav-pills nav-stacked">
+                    <li><a href="#"><i class="fa fa-envelope-o"></i> Sent</a></li>
+                    <li><a href="#"><i class="fa fa-file-text-o"></i> Drafts</a></li>
+                  </ul>
+                </div><!-- /.box-body -->
+              </div><!-- /. box -->
+              <div class="box box-solid">
+                <div class="box-header with-border">
+                  <h3 class="box-title">Labels</h3>
+                  <div class="box-tools">
+                    <button class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i></button>
+                  </div>
+                </div>
+                <div class="box-body no-padding">
+                  <ul class="nav nav-pills nav-stacked">
+                    <li><a href="#"><i class="fa fa-circle-o text-green"></i> <span>Success</span></a></li>
+                    <li><a href="#"><i class="fa fa-circle-o text-yellow"></i> <span>Warning</span></a></li>
+                    <li><a href="#"><i class="fa fa-circle-o text-blue"></i> <span>Information</span></a></li>
+                    <li><a href="#"><i class="fa fa-circle-o text-orange"></i> <span>Notice</span></a></li>
+                    <li><a href="#"><i class="fa fa-circle-o text-red"></i> <span>Error</span></a></li>
+                  </ul>
+                </div><!-- /.box-body -->
+              </div><!-- /.box -->
+            </div><!-- /.col -->
+            <div class="col-md-9">
+              <div class="box box-primary">
+                <div class="box-header with-border">
+                  <h3 class="box-title">Sent</h3>
+                  <div class="box-tools pull-right">
+                  </div><!-- /.box-tools -->
+                </div><!-- /.box-header -->
+                <div class="box-body no-padding">
+                  <div class="mailbox-controls">
+                    <!-- Check all button -->
+                    <button class="btn btn-default btn-sm checkbox-toggle"><i class="fa fa-square-o"></i></button>
+                    <div class="btn-group">
+                      <button class="btn btn-default btn-sm"><i class="fa fa-share"></i></button>
+                    </div><!-- /.btn-group -->
+                    <button class="btn btn-default btn-sm"><i class="fa fa-refresh"></i></button>
+                  </div>
+                  <div class="table-responsive mailbox-messages">
+                      <table ng-table="tableParams" class="table table-striped" >
+                      <tr ng-repeat="message in $data" ng-click="openMessageInfo(message)">
+                            <td data-title="'Id'" sortable="'id'">{{ message.id }}</td>
+                            <td data-title= "'Title'" sortable="'title'">{{ message.title }}</td>
+                            <td data-title="'Status'" ><span class="label label-success">Sent</span></td>
+                            <td data-title= "'Type'" sortable="'type'"><div class="label label-danger" >{{ message.type }}</div></td>
+                          </tr>
+                      </tr>
+                    </table>
+                  </div><!-- /.mail-box-messages -->
+                </div><!-- /.box-body -->
+                <div class="box-footer no-padding">
+                  <div class="mailbox-controls">
+                    <!-- Check all button -->
+                    <button class="btn btn-default btn-sm checkbox-toggle"><i class="fa fa-square-o"></i></button>
+                    <button class="btn btn-default btn-sm"><i class="fa fa-refresh"></i></button>
+                  </div>
+                </div>
+              </div><!-- /. box -->
+            </div><!-- /.col -->
+          </div><!-- /.row -->
+
+    </div> <!-- /.body -->
+   </div> <!-- /.box -->
+        

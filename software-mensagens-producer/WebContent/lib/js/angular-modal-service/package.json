@@ -1,0 +1,100 @@
+{
+  "_args": [
+    [
+      "angular-modal-service",
+      "/home/douglas/workspace/openims-producer-server/WebContent"
+    ]
+  ],
+  "_from": "angular-modal-service@*",
+  "_id": "angular-modal-service@0.6.9",
+  "_inCache": true,
+  "_location": "/angular-modal-service",
+  "_nodeVersion": "0.12.7",
+  "_npmUser": {
+    "email": "dwmkerr@gmail.com",
+    "name": "dwmkerr"
+  },
+  "_npmVersion": "2.12.1",
+  "_phantomChildren": {},
+  "_requested": {
+    "name": "angular-modal-service",
+    "raw": "angular-modal-service",
+    "rawSpec": "",
+    "scope": null,
+    "spec": "*",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "http://registry.npmjs.org/angular-modal-service/-/angular-modal-service-0.6.9.tgz",
+  "_shasum": "f36f62a57eb59faacd56ced8883b86291d78260e",
+  "_shrinkwrap": null,
+  "_spec": "angular-modal-service",
+  "_where": "/home/douglas/workspace/openims-producer-server/WebContent",
+  "author": {
+    "name": "Dave Kerr",
+    "url": "github.com/dwmkerr"
+  },
+  "bugs": {
+    "url": "https://github.com/dwmkerr/angular-modal-service/issues"
+  },
+  "dependencies": {},
+  "description": "AngularJS Service for showing Modals and Popups",
+  "devDependencies": {
+    "connect-livereload": "^0.5.3",
+    "coveralls": "^2.10.0",
+    "express": "^4.12.0",
+    "gulp": "^3.8.11",
+    "gulp-header": "^1.2.2",
+    "gulp-jshint": "^1.9.2",
+    "gulp-open": "^1.0.0",
+    "gulp-rename": "^1.2.0",
+    "gulp-sourcemaps": "^1.5.0",
+    "gulp-uglify": "^1.1.0",
+    "jshint-stylish": "^2.0.0",
+    "karma": "^0.13.10",
+    "karma-chrome-launcher": "^0.2.0",
+    "karma-coverage": "^0.5.1",
+    "karma-jasmine": "~0.3",
+    "karma-junit-reporter": "~0.3",
+    "karma-phantomjs-launcher": "^0.2.1",
+    "opn": "^3.0.1",
+    "phantomjs": "^1.9.18",
+    "tiny-lr": "^0.1.5"
+  },
+  "directories": {},
+  "dist": {
+    "shasum": "f36f62a57eb59faacd56ced8883b86291d78260e",
+    "tarball": "http://registry.npmjs.org/angular-modal-service/-/angular-modal-service-0.6.9.tgz"
+  },
+  "gitHead": "1ca2f52d79bdc10757e2b049d57a16cd0eea65e6",
+  "homepage": "https://github.com/dwmkerr/angular-modal-service",
+  "installable": true,
+  "keywords": [
+    "angular",
+    "angularjs",
+    "modal",
+    "popup"
+  ],
+  "license": "MIT",
+  "main": "./dst/angular-modal-service.js",
+  "maintainers": [
+    {
+      "name": "dwmkerr",
+      "email": "dwmkerr@gmail.com"
+    }
+  ],
+  "name": "angular-modal-service",
+  "optionalDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/dwmkerr/angular-modal-service.git"
+  },
+  "scripts": {
+    "coveralls": "cp build/coverage/PhantomJS*/lcov.info lcov.info && node node_modules/coveralls/bin/coveralls.js < lcov.info",
+    "test": "gulp test",
+    "test-debug": "karma start ./test/karma.config.js --no-single-run --browsers Chrome"
+  },
+  "version": "0.6.9"
+}

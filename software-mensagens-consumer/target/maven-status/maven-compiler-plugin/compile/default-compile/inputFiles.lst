@@ -1,0 +1,15 @@
+/home/douglas/workspace/software-mensagens-consumer/src/br/com/celtab/openims/entity/Consumer.java
+/home/douglas/workspace/software-mensagens-consumer/src/br/com/celtab/openims/systemtray/SystrayApp.java
+/home/douglas/workspace/software-mensagens-consumer/src/br/com/celtab/openims/entity/Message.java
+/home/douglas/workspace/software-mensagens-consumer/src/br/com/celtab/openims/message/controller/MessageController.java
+/home/douglas/workspace/software-mensagens-consumer/src/br/com/celtab/openims/amqp/ChannelConsume.java
+/home/douglas/workspace/software-mensagens-consumer/src/br/com/celtab/openims/dao/GenericDAOImpl.java
+/home/douglas/workspace/software-mensagens-consumer/src/br/com/celtab/openims/dao/GenericDAOInterface.java
+/home/douglas/workspace/software-mensagens-consumer/src/br/com/celtab/openims/message/controller/TrayNotificationApp.java
+/home/douglas/workspace/software-mensagens-consumer/src/br/com/celtab/openims/amqp/ConnectFactory.java
+/home/douglas/workspace/software-mensagens-consumer/src/br/com/celtab/openims/entity/User.java
+/home/douglas/workspace/software-mensagens-consumer/src/br/com/celtab/openims/entity/Groups.java
+/home/douglas/workspace/software-mensagens-consumer/src/br/com/celtab/openims/app/AppConsumer.java
+/home/douglas/workspace/software-mensagens-consumer/src/br/com/celtab/openims/dao/ConsumerDAO.java
+/home/douglas/workspace/software-mensagens-consumer/src/br/com/celtab/openims/groups/Exchange.java
+/home/douglas/workspace/software-mensagens-consumer/src/br/com/celtab/openims/message/controller/MessageView.java

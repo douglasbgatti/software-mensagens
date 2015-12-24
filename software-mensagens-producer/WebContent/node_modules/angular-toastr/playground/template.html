@@ -1,0 +1,11 @@
+<div class="{{toastClass}} {{toastType}}">
+  <div ng-click="tapToast()" class="row">
+    <div class="col-xs-5 col-sm-5 col-md-5 col-lg-5 col-lg-offset-7 col-md-offset-7 col-sm-offset-7 col-xs-offset-7">
+      <div class="container">
+        <div ng-if="title" class="{{titleClass}}">{{title}}</div>
+        <div class="{{messageClass}}">{{message}}</div>
+        {{extraData}}
+      </div>
+    </div>
+  </div>
+</div>
